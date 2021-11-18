@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Mulish;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url("fonts/woff2/Mulish-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Mulish;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("fonts/woff2/Mulish-Bold.woff2") format("woff2");
+}
+
+body{
+    font-family: Mulish, sans-serif;
+    background-color:seashell;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+image{
+    text-align: left;
+}
+
+.container{
+    width: 1224px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.55;
+    margin-bottom: 33px;
+}
+
+h2::after{
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 2.33;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+li:hover{
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.first_paragraph{
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #7D7987;
+    width: 952px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.section{
+    padding: 54px 37px 46px;
+}
+
+p{
+    text-align: left;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.52;
+    color: #7D7987;
+}
+
+button{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 3.33;
+    width: 200px;
+    height: 56px;
+    margin-top: 35px;
+    background-color: #FFFFFF;
+    color:#458FF6;
+    border-radius: 55px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
